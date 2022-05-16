@@ -2,7 +2,7 @@
     "_manifest" : {
     "name": "John's List",
     "id": "test.123",
-    "version": 2,
+    "version": 3,
     "classPath": "",
     "permaUrl": "https://raw.githubusercontent.com/jonathanmohamed/...syn.../main/test.json"
   },
