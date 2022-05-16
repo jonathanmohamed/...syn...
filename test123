@@ -1,0 +1,55 @@
+{
+    "_manifest" : {
+    "name": "John's List",
+    "id": "ABC",
+    "version": 3,
+    "classPath": "",
+    "permaUrl": "https://raw.githubusercontent.com/jonathanmohamed/...syn.../main/test123.json"
+  },
+  "_rlsbb": {
+    "anime": {
+      "keywords": "{title} {episode}",
+      "query": "/category-search/{query}/Anime/1/"
+    },
+    "base_url": "https://search.rlsbb.ru/",
+    "enabled": true,
+    "episode": {
+      "keywords": "{title} {episodeCode}",
+      "query": "/category/tv-shows/"
+    },
+    "fallback_urls": [
+      "https://search.rlsbb.cc/",
+      "https://search.bbrls.in/",
+      "https://search.proxybb.com/",
+      "https://search.rlsbb.to/",
+      "https://search.releasebb.net/"
+    ],
+    "html_parser": {
+      "peers": "row.querySelector('.leeches').innerHTML",
+      "row": "doc.querySelectorAll('tbody > tr')",
+      "seeds": "row.querySelector('.seeds').innerHTML",
+      "size": "row.querySelector('tbody > tr .size').textContent.split('B')[0] + 'B'",
+      "title": "row.querySelector('a:nth-child(2)').innerHTML",
+      "url": "'https://rlsbb.ru/'+ row.querySelector('a:nth-child(2)').getAttribute('href')"
+    },
+    "languages": [
+      "en"
+    ],
+    "movie": {
+      "keywords": "{title} {year}",
+      "query": "/category/movies/"
+    },
+    "name": "rlsbb",
+    "response_type": "text",
+    "season": {
+      "keywords": "{title} {seasonCode}",
+      "query": "/category/tv-shows/"
+    },
+    "separator": "+",
+    "source_is_in_sub_page": true,
+    "title_replacement": {
+      "\"": "",
+      "'s": "s"
+    }
+  }
+}
