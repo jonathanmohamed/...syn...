@@ -2,12 +2,12 @@
     "_manifest":{
        "name":"Orion",
        "id":"Orion",
-       "version":1,
+       "version":2,
        "classPath":"",
        "permaUrl":"https://raw.githubusercontent.com/jonathanmohamed/...syn.../main/onion"
     },
     "torrentapi": {
-        "name": "RARBG",
+        "name": "Roti",
         "enabled": true,
         "languages": [
             "en"
@@ -54,7 +54,7 @@
         }
     },
     "_1337x": {
-        "name": "1337x",
+        "name": "Nasi",
         "enabled": true,
         "languages": [
             "en"
@@ -108,7 +108,7 @@
         }
     },
     "_1337x_720": {
-        "name": "1337x_720p",
+        "name": "Bami",
         "enabled": true,
         "languages": [
             "en"
@@ -162,7 +162,7 @@
         }
     },
     "orion":{
-        "name":"Orion",
+        "name":"Fj",
         "languages":[
            "en"
         ],
