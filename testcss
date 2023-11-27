@@ -134,6 +134,7 @@ section .opening a {
     margin-top: -12px;
     position: relative;
     z-index: 1;
+    background-color: red;
 }
 
 section .opening a:hover {
